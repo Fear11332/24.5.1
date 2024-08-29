@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth; /* Плавная прокрутка */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('/images/background.jpeg') no-repeat center center fixed; /* Полупрозрачный фон */
+    background-size: cover; /* Масштабируем изображение */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header, nav, footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+    margin-right: 20px; /* Увеличиваем отступ справа для большего расстояния от пунктов меню */
+    margin-left: 10px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    z-index: 1000;
+    height: 60px;
+    display: flex; /* Используем flex для выравнивания логотипа и пунктов меню */
+    align-items: center; /* Центрируем элементы по вертикали */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #23527c;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 60px; /* Отступ сверху для навигации */
+    margin-bottom: 60px; /* Отступ снизу для футера */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Добавляем отступы между изображениями */
+}
+
+.gallery img {
+    width: 30%;
+    border: 1px solid #5a3737;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000; /* Убедитесь, что футер выше других элементов */
+    height: 60px;
+    display: flex; /* Используем flex для выравнивания содержимого футера */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: center; /* Центрируем элементы по горизонтали */
+}
+

@@ -1,0 +1,8 @@
+[Wed Aug 28 15:29:25.990006 2024] [authz_core:error] [pid 21273:tid 135939045197504] [client 172.20.10.3:34496] AH01630: client denied by server configuration: /mnt/shared_folder/
+[Wed Aug 28 15:29:26.724752 2024] [authz_core:error] [pid 21273:tid 135939034711744] [client 172.20.10.3:34496] AH01630: client denied by server configuration: /mnt/shared_folder/favicon.ico, referer: http://visitka.com:8080/
+[Wed Aug 28 15:29:45.447125 2024] [authz_core:error] [pid 21273:tid 135939066169024] [client 172.20.10.3:34502] AH01630: client denied by server configuration: /mnt/shared_folder/inex.php
+[Wed Aug 28 15:29:45.723819 2024] [authz_core:error] [pid 21273:tid 135939055683264] [client 172.20.10.3:34502] AH01630: client denied by server configuration: /mnt/shared_folder/favicon.ico, referer: http://visitka.com:8080/inex.php
+[Wed Aug 28 15:41:30.923271 2024] [authz_core:error] [pid 21910:tid 135094670984896] [client 172.20.10.3:57206] AH01630: client denied by server configuration: /mnt/shared_folder/inex.php
+[Wed Aug 28 15:41:31.298995 2024] [authz_core:error] [pid 21910:tid 135094650013376] [client 172.20.10.3:57206] AH01630: client denied by server configuration: /mnt/shared_folder/favicon.ico, referer: http://visitka.com:8080/inex.php
+[Wed Aug 28 15:41:42.833566 2024] [authz_core:error] [pid 21910:tid 135094559835840] [client 172.20.10.3:57214] AH01630: client denied by server configuration: /mnt/shared_folder/
+[Wed Aug 28 15:41:43.550062 2024] [authz_core:error] [pid 21910:tid 135094538864320] [client 172.20.10.3:57214] AH01630: client denied by server configuration: /mnt/shared_folder/favicon.ico, referer: http://visitka.com:8080/
